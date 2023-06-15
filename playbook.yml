@@ -1,0 +1,7 @@
+---
+- name: deployment
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - final
